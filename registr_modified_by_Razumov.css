@@ -1,0 +1,100 @@
+.body-wrapper {
+	padding:0px; 
+	margin:0;
+	background:tan; 
+	font-size:14px; 
+	font-family:Arial, 
+	Sans-serif;
+}
+
+.main-wrapper {
+	width:960px;
+	min-height:500px; 
+	margin:0 auto;
+	padding:20px 20px 20px 20px; 
+	background:#fff;
+}
+
+link {
+	color:#ffcc99;
+}
+
+link:hover {
+	text-decoration:none;
+}
+ 
+/*Шапка сайта*/
+.header-wrapper {
+	height:70px;
+	display: flex;
+	justify-content: center;
+}
+
+.header-wrapper__title {
+	font-size: 30px;
+	color: burlywood;
+}
+ 
+/*Верхнее меню сайта*/
+.top-menu-wrapper {
+	width:960px; 
+	display: flex;
+	flex-direction: column;
+}	
+
+.top-menu-wrapper__decorative-line {
+	width:940px;
+	height:8px;
+	background:tan;
+	margin:0 auto;
+}
+
+.navigation-list {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.navigation-list > li {
+	float:left;
+	padding:0 2px 0 0;
+}
+
+.navigation-list__navlink {
+	display:block;
+	height:40px; 
+	padding:24px 27px 0 27px; 
+	color:#6f4e37;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.navigation-list__navlink:hover {
+	color:#fff; 
+	background:#6f4e37;
+}
+ 
+.logo-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-wrapper__logo-img {
+	border:0;
+}
+ 
+.registration-form {
+	border: 5px solid moccasin;
+}
+.registration-table {
+	border-spacing: 25px;
+	text-align: center;
+	width: 300px;
+	margin: auto;
+	height: 300px;
+}
+.registration-table__table-title {
+	font-size:18px;
+	color: #6f4e37;
+	text-align:center;
+}

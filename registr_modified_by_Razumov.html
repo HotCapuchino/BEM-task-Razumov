@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>УУПС</title>
+    <link rel="stylesheet" href="registr_modified_by_Razumov.css" type="text/css" />
+</head>
+
+<body class="body-wrapper">
+    <div class="main-wrapper">
+        <header class="header-wrapper">
+            <i class="header-wrapper__title">
+                Институт удаленных профессий современности
+            </i>
+        </header>
+        <div class="top-menu-wrapper">
+            <div class="top-menu-wrapper__decorative-line"></div>
+            <ul class="navigation-list">
+                <li>
+                    <a class="navigation-list__navlink link" href="главная.html">Главная</a>
+                </li>
+                <li>
+                    <a class="navigation-list__navlink link" href="prof.html">Профессии</a>
+                </li>
+                <li>
+                    <a class="navigation-list__navlink link" href="eks.html">Эксперты</a>
+                </li>
+                <li>
+                    <a class="navigation-list__navlink link" href="tarif.html">Тарифы</a>
+                </li>
+                <li>
+                    <a class="navigation-list__navlink link" href="registr.html">Регистрация</a>
+                </li>
+            </ul>
+            <div class="logo-wrapper">
+                <a class="link" href="главная.html">
+                    <img class="logo-wrapper__logo-img" src="images/photo.png" />
+                </a>
+            </div>
+        </div>
+
+        <form method="get" action="my.ru" class="registration-form">
+            <table class="registration-table">
+                <br>
+                <caption class="registration-table__table-title">
+                    <i> Заполните данные для регистрации </i>
+                </caption>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Введите имя" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" list="pol" name="pol" placeholder="Введите пол" required>
+                        <datalist id="pol">
+                            <option value="Женщина"></option>
+                            <option value="Мужчина"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" placeholder="Имя тарифа" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" placeholder="Введите Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" name="tel" placeholder="Введите номер телефона" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label for="country">Страна</label>
+                        <br><br>
+                        <select name="country">
+                            <option>Выберите страну проживания</option>
+                            <option value="Россия">Россия</option>
+                            <option value="Украина">Америка</option>
+                            <option value="Беларусь">Беларусь</option>
+                            <option value="Беларусь">Украина</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Отправить</button></td>
+                    </td>
+        </form>
+</body>
+
+</html>
